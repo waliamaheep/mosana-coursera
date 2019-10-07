@@ -6,7 +6,6 @@ box-sizing: border-box;
 article {
 	position: relative;
 	background-color: #8080806b;
-	width: 300px;
 	margin:10px;
 	padding: 40px 0px 0px 0px;
 	border:2px black solid;
@@ -41,27 +40,40 @@ h5 {
 .inbox3{
 	background-color: #FF00FF;
 }
-
-@media (min-width: 768px) and (max-width: 992px){
+@media(min-width: 992px)
+{
 	.outbox1	{
-		width: 50%;
+		width: 31%;
 	}
 	.outbox2	{
-		width: 50%;
+		width: 31%;
 	}
 	.outbox3	{
-		width: 100%;
+		width: 31%;
+	}	
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.outbox1	{
+		width: 47%;
+	}
+	.outbox2	{
+		width: 47%;
+	}
+	.outbox3	{
+		width: 96.5%;
 	}	
 }
 @media (max-width: 767px)
 {
 	.outbox1	{
-		width: 50%;
+		width: 96.5%;
 	}
 	.outbox2	{
-		width: 50%;
+		width: 96.5%;
 	}
 	.outbox3	{
-		width: 50%;
+		width: 96.5%;
 	}	
 }
